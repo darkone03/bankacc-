@@ -1,0 +1,64 @@
+
+// i am new so this was the best i can do.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bankjs.js" lang="javascript"></script>
+</head>
+<body> 
+    <small><i>Ashoka university Pvt LTD(India)</i></small>
+    <fieldset style="background-color: pink;">
+        <legend><img src="logo.png" style="width: 220px;" /></legend>
+        <div id="class" >
+            <b>Enter Name:</b>
+            <input type="text" id="name" placeholder="Name" required/><br>
+            <br>
+            <B>Password:</B><input type="password" id="password" />
+            <br>
+
+            <input type="submit" value="Enter" onclick="bank()"/>
+
+            <br>
+            <hr>
+            
+        </div>
+
+        <br>
+        <b>Enter amount to deposit:</b>
+        <input type="number" id="deposit" placeholder="INR" min="0"/>
+        <br>
+        <input type="submit" onclick="addmoney()" value="submit" />
+        <br>
+        <br>
+
+        <b>Enter amount to withdraw:</b>
+        <input type="number" id="withdraw" placeholder="INR" min="0"/>
+        <br>
+        
+        <input type="submit" onclick="removemoney()" value="submit" />
+        <hr>
+        <div id="result"  >
+            <br>
+            <!-- <input type="text" id="dic" placeholder="Value" readonly style="height: 100px; width: 200px; text-align: left;"/> -->
+
+        </div>
+        <br>
+        <div id="result1"  >
+            <br>
+            <!-- <input type="text" id="dic" placeholder="Value" readonly style="height: 100px; width: 200px; text-align: left;"/> -->
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </fieldset>    
+        <small style="text-align:end ;">Made by sumedh ahire</small>
+
+</body>
+</html>
